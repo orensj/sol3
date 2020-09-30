@@ -3,7 +3,7 @@ import {HttpLink} from 'apollo-link-http';
 import {InMemoryCache} from 'apollo-cache-inmemory';
 
 // TODO: Replace with server uri
-const SERVER_URL = 'http://129.213.158.42:9001/graphql';
+const SERVER_URL = 'http://129.213.158.42:{your port}/graphql';
 
 const httpLink = new HttpLink({
   uri: SERVER_URL,
